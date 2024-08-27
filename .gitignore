@@ -1,0 +1,62 @@
+# .NET build output
+bin/
+obj/
+out/
+
+# ASP.NET temporary files
+*.dll
+*.exe
+*.pdb
+*.log
+*.tmp
+*.swp
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget/
+
+# Rider IDE files
+.idea/
+
+# Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core
+wwwroot/
+appsettings.Development.json
+appsettings.json
+appsettings.*.json
+
+# Environment specific files
+*.env
+
+# Build results
+*.pidb
+*.svd
+*.suo
+
+# JetBrains Rider
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Global ignoring (not specific to the project)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
