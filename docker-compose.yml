@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+    mongodb:
+        image: mongo:latest
+        container_name: mydb
+        platform: linux/x86_64
+        ports:
+        - 27017:27017
+        volumes:
+        - mongo_data:/data/db # Persistent storage for MongoDB data
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: exampleuser # Root username
+            MONGO_INITDB_ROOT_PASSWORD: examplepass # Root password
+
+volumes:
+    mongo_data:    

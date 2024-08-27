@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ScZoyUkRhX/Zes59oUIqeuCsZBtdVw2hCH1aoBjnuUg=",
+  "Source": "UsingMongoDb",
+  "BasePath": "_content/UsingMongoDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UsingMongoDb\\wwwroot",
+      "Source": "UsingMongoDb",
+      "ContentRoot": "C:\\Users\\LAP PHAN\\source\\repos\\UsingMongoDb\\UsingMongoDb\\wwwroot\\",
+      "BasePath": "_content/UsingMongoDb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
